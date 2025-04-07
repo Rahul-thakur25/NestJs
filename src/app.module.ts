@@ -4,7 +4,7 @@ import { BookmarkModule } from './bookmark/bookmark.module';
 import { AuthModule } from './auth/auth.module';
 import { PrismaService } from './prisma/prisma.service';
 @Module({
-  imports: [AuthModule,UserModule, BookmarkModule],
-  providers: [PrismaService]
+  imports: [AuthModule, UserModule, BookmarkModule],
+  providers: [PrismaService],
 })
-export class AppModule {}  
+export class AppModule {}
